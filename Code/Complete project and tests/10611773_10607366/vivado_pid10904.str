@@ -1,0 +1,457 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 10904
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Mar 22 22:26:41 CET 2021
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	gianl
+User home directory: C:/Users/gianl
+User working directory: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366
+User country: 	IT
+User language: 	it
+User locale: 	it_IT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/gianl/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/gianl/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/gianl/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/vivado.log
+Vivado journal file location: 	C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/vivado.jou
+Engine tmp dir: 	C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/.Xil/Vivado-10904-DESKTOP-IANA7KF
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	129 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,027 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\gianl\Desktop\ultimo test\Progetto di Reti Logiche\10611773_10607366\10611773_10607366.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,027 MB. GUI used memory: 54 MB. Current time: 3/22/21, 10:26:42 PM CET
+// Tcl Message: open_project {C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/gianl/Desktop/Progetto di Reti Logiche/10611773_10607366' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 61 MB (+61384kb) [00:00:23]
+// [Engine Memory]: 1,027 MB (+925374kb) [00:00:23]
+// [GUI Memory]: 80 MB (+16338kb) [00:00:23]
+// [GUI Memory]: 103 MB (+20283kb) [00:00:24]
+// WARNING: HEventQueue.dispatchEvent() is taking  6470 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1017.582 ; gain = 0.000 
+// Project name: 10611773_10607366; location: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366; part: xc7a200tfbg484-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 1); // D
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (10611773_10607366.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_reti_logiche(Behavioral) (10611773_10607366.vhd)]", 1, false); // D
+// [GUI Memory]: 119 MB (+11398kb) [00:00:38]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, project_reti_logiche(Behavioral) (10611773_10607366.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 128 MB (+3701kb) [00:00:39]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+selectCodeEditor("10611773_10607366.vhd", 577, 248); // bP
+selectCodeEditor("10611773_10607366.vhd", 420, 309); // bP
+selectCodeEditor("10611773_10607366.vhd", 561, 200); // bP
+// [GUI Memory]: 138 MB (+3508kb) [00:00:57]
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Mon Mar 22 22:27:43 2021] Launched synth_1... Run output will be captured here: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectComboBox(PAResourceQtoS.SrcChooserPanel_ADD_FILES_BELOW_TO_THIS_SIMULATION_SET, "Create Simulation Set...", 1); // bH
+setText("PAResourceQtoS.SrcChooserPanel_ENTER_SIMULATION_SET_NAME", "unico"); // BasicOptionPaneUI.MultiplexingTextField
+// TclEventType: FILE_SET_NEW
+selectButton("OptionPane.button", "OK"); // JButton
+// Tcl Message: create_fileset -simset unico 
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_ACTIVE, "Make active", true); // g: TRUE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1060 ms. Increasing delay to 3000 ms.
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 14 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/gianl/Desktop/ultimo test/unico.vhd");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", true); // g: TRUE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 44 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// c (cr): Add Sources: addNotify
+// bz (c):  Add Simulation Sources  : addNotify
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets unico] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset unico -norecurse -scan_for_includes {{C:/Users/gianl/Desktop/ultimo test/unico.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset unico -norecurse {{C:/Users/gianl/Desktop/ultimo test/unico.vhd}} 
+// TclEventType: CURRENT_FILESET_SET
+// Tcl Message: current_fileset -simset [ get_filesets unico ] 
+dismissDialog("Add Simulation Sources"); // bz
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset unico 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ah
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset unico 
+dismissFileChooser();
+selectComboBox(PAResourceQtoS.SrcChooserPanel_ADD_FILES_BELOW_TO_THIS_SIMULATION_SET, "Create Simulation Set...", 2); // bH
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+setText("PAResourceQtoS.SrcChooserPanel_ENTER_SIMULATION_SET_NAME", "telegram_reset"); // BasicOptionPaneUI.MultiplexingTextField
+// TclEventType: FILE_SET_NEW
+selectButton("OptionPane.button", "OK"); // JButton
+// Tcl Message: create_fileset -simset telegram_reset 
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 436ms to process. Increasing delay to 3000 ms.
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+setFileChooser("C:/Users/gianl/Desktop/ultimo test/RL-generator-2020-2021-main/gen_testbench_reset.vhd");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 29 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets telegram_reset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// c (cr): Add Sources: addNotify
+// bz (c):  Add Simulation Sources  : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset telegram_reset -norecurse -scan_for_includes {{C:/Users/gianl/Desktop/ultimo test/RL-generator-2020-2021-main/gen_testbench_reset.vhd}} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset telegram_reset -norecurse {{C:/Users/gianl/Desktop/ultimo test/RL-generator-2020-2021-main/gen_testbench_reset.vhd}} 
+dismissDialog("Add Simulation Sources"); // bz
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, telegram_reset]", 4); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset telegram_reset 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, telegram_reset, project_tb(projecttb) (gen_testbench_reset.vhd)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, telegram_reset, project_tb(projecttb) (gen_testbench_reset.vhd)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset telegram_reset 
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 61 seconds
+selectCodeEditor("gen_testbench_reset.vhd", 1355, 192); // bP
+selectCodeEditor("gen_testbench_reset.vhd", 588, 527); // bP
+typeControlKey((HResource) null, "gen_testbench_reset.vhd", 'v'); // bP
+selectCodeEditor("gen_testbench_reset.vhd", 806, 117); // bP
+typeControlKey((HResource) null, "gen_testbench_reset.vhd", 'v'); // bP
+selectCodeEditor("gen_testbench_reset.vhd", 704, 154); // bP
+typeControlKey((HResource) null, "gen_testbench_reset.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Tcl Command: 'rdi::info_commands {re*}'
+// Tcl Command: 'rdi::info_commands {rep*}'
+// Tcl Command: 'rdi::info_commands {repor*}'
+// Tcl Command: 'rdi::info_commands {report*}'
+// Tcl Command: 'rdi::info_commands {report_*}'
+// Tcl Command: 'rdi::info_commands {report_ti*}'
+// Tcl Command: 'rdi::info_commands {report_tim*}'
+// Tcl Command: 'rdi::info_commands {report_timing*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "report_timing", true); // l
+// Tcl Command: 'report_timing'
+// Tcl Command: 'report_timing'
+// Tcl Message: report_timing 
+// Tcl Message: ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command. 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a200tfbg484-1 Top: project_reti_logiche 
+// WARNING: HEventQueue.dispatchEvent() is taking  1253 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,289 MB. GUI used memory: 82 MB. Current time: 3/22/21, 10:31:29 PM CET
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,455 MB. GUI used memory: 82 MB. Current time: 3/22/21, 10:31:42 PM CET
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,470 MB. GUI used memory: 82 MB. Current time: 3/22/21, 10:31:45 PM CET
+// [Engine Memory]: 1,471 MB (+412075kb) [00:05:22]
+// Xgd.load filename: C:/Xilinx/Vivado/2020.2/data/parts/xilinx/artix7/devint/artix7/xc7a200t/xc7a200t.xgd; ZipEntry: xc7a200t_detail.xgd elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.4s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,563 MB (+18852kb) [00:05:26]
+// [GUI Memory]: 153 MB (+8489kb) [00:05:26]
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (gen_testbench_reset.vhd) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  4309 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a200tfbg484-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1377.590 ; gain = 254.855 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'project_reti_logiche' [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/sources_1/new/10611773_10607366.vhd:41] INFO: [Synth 8-256] done synthesizing module 'project_reti_logiche' (1#1) [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/sources_1/new/10611773_10607366.vhd:41] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1430.184 ; gain = 307.449 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1447.285 ; gain = 324.551 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1447.285 ; gain = 324.551 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1447.285 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/constrs_1/imports/Progetto di Reti Logiche/clock.xdc] Finished Parsing XDC File [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/constrs_1/imports/Progetto di Reti Logiche/clock.xdc] Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1566.137 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:22 . Memory (MB): peak = 1655.078 ; gain = 532.344 
+// Tcl Message: 5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 1655.078 ; gain = 637.496 
+// 'dV' command handler elapsed time: 39 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  2351 ms.
+// Elapsed time: 36 seconds
+dismissDialog("Open Elaborated Design"); // bz
+// [GUI Memory]: 170 MB (+9312kb) [00:05:41]
+// Elapsed time: 18 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK
+// Tcl Command: 'rdi::info_commands {repo*}'
+// Tcl Command: 'rdi::info_commands {report*}'
+// Tcl Command: 'rdi::info_commands {report_*}'
+// Tcl Command: 'rdi::info_commands {report_ti*}'
+// Tcl Command: 'rdi::info_commands {report_tim*}'
+// Tcl Command: 'rdi::info_commands {report_timi*}'
+// Tcl Command: 'rdi::info_commands {report_timi*}'
+// Tcl Command: 'rdi::info_commands {report_timing*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "report_timing", true); // l
+// Tcl Command: 'report_timing'
+// Tcl Command: 'report_timing'
+// Tcl Message: report_timing 
+// Tcl Message: ERROR: [Elaboration 18-496] report_timing: 'report_timing' is not supported pre-synthesis. Please open a synthesized design (or synthesize the current design) and rerun this command. 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bz (cr):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg484-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,647 MB. GUI used memory: 113 MB. Current time: 3/22/21, 10:32:40 PM CET
+// [Engine Memory]: 1,719 MB (+81533kb) [00:06:20]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.1s
+// TclEventType: DESIGN_NEW
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2409 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1671.895 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/constrs_1/imports/Progetto di Reti Logiche/clock.xdc] Finished Parsing XDC File [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/constrs_1/imports/Progetto di Reti Logiche/clock.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1733.461 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0,0
+// WARNING: HEventQueue.dispatchEvent() is taking  1231 ms.
+// Tcl Message: open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1811.371 ; gain = 141.086 
+// 'dV' command handler elapsed time: 10 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  1564 ms.
+// Device view-level: 0,1
+// Elapsed time: 10 seconds
+dismissDialog("Open Synthesized Design"); // bz
+// Device view-level: 0,0
+// Tcl Command: 'rdi::info_commands {repo*}'
+// Tcl Command: 'rdi::info_commands {report*}'
+// Tcl Command: 'rdi::info_commands {report_*}'
+// Tcl Command: 'rdi::info_commands {report_tim*}'
+// Tcl Command: 'rdi::info_commands {report_timing*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "report_timing", true); // l
+// Tcl Command: 'report_timing'
+// Tcl Command: 'report_timing'
+// Tcl Message: report_timing 
+// Tcl Message: INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+// bz (cr):  Tcl Command Line : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,797 MB. GUI used memory: 121 MB. Current time: 3/22/21, 10:32:57 PM CET
+// RouteApi::initDelayMediator elapsed time: 19.2s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack. 
+// [Engine Memory]: 2,196 MB (+410692kb) [00:06:42]
+// Elapsed time: 11 seconds
+dismissDialog("Tcl Command Line"); // bz
+maximizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // az
+// HMemoryUtils.trashcanNow. Engine heap size: 2,243 MB. GUI used memory: 121 MB. Current time: 3/22/21, 10:33:12 PM CET
+// Tcl Command: 'rdi::info_commands {re*}'
+// Tcl Command: 'rdi::info_commands {report*}'
+// Tcl Command: 'rdi::info_commands {report_*}'
+// Tcl Command: 'rdi::info_commands {report_t*}'
+// Tcl Command: 'rdi::info_commands {report_uti*}'
+// Tcl Command: 'rdi::info_commands {report_util*}'
+// Tcl Command: 'rdi::info_commands {report_util*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "report_utilization", true); // l
+// Tcl Command: 'report_utilization'
+// Tcl Command: 'report_utilization'
+// Tcl Message: report_utilization 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 620, 403); // dS
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 401, 396); // dS
+// [GUI Memory]: 180 MB (+1374kb) [00:07:04]
+// WARNING: HEventQueue.dispatchEvent() is taking  1139 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,245 MB. GUI used memory: 122 MB. Current time: 3/22/21, 10:33:28 PM CET
+unMaximizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // az
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 224ms to process. Increasing delay to 2000 ms.
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, telegram_reset]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, unico]", 7, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, unico]", 7, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RESET, "Reset Simulation"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL, "Run Post-Synthesis Functional Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// e (cr):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -simset [get_filesets unico ] -mode post-synthesis -type functional 
+// Tcl Message: Command: launch_simulation -simset unico -mode post-synthesis -type functional 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.sim/unico/synth/func/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj project_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.sim/unico/synth/func/xsim/project_tb_func_synth.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'project_reti_logiche' INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/unico/imports/ultimo test/unico.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'project_tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.sim/unico/synth/func/xsim' 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// 'd' command handler elapsed time: 5 seconds
+// Tcl Message: "xelab -wto 04384d7aca2a43bc9ac4ebbd16d88742 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot project_tb_func_synth xil_defaultlib.project_tb -log elaborate.log" 
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+// Tcl Message: Vivado Simulator 2020.2 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 04384d7aca2a43bc9ac4ebbd16d88742 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot project_tb_func_synth xil_defaultlib.project_tb -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis 
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+// Tcl Message: Built simulation snapshot project_tb_func_synth 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Users/gianl/Desktop/ultimo -notrace couldn't read file "C:/Users/gianl/Desktop/ultimo": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Mon Mar 22 22:34:14 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:28 . Memory (MB): peak = 2451.883 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '29' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.sim/unico/synth/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "project_tb_func_synth -key {Post-Synthesis:unico:Functional:project_tb} -tclbatch {project_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// Elapsed time: 80 seconds
+closeMainWindow("10611773_10607366 - [C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.xpr] - Vivado 2020.2"); // cr
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

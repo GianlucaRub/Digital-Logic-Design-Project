@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 22 22:26:13 2021
+# Process ID: 10904
+# Current directory: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13400 C:\Users\gianl\Desktop\ultimo test\Progetto di Reti Logiche\10611773_10607366\10611773_10607366.xpr
+# Log file: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/vivado.log
+# Journal file: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.xpr}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+create_fileset -simset unico
+set_property SOURCE_SET sources_1 [get_filesets unico]
+add_files -fileset unico -norecurse -scan_for_includes {{C:/Users/gianl/Desktop/ultimo test/unico.vhd}}
+import_files -fileset unico -norecurse {{C:/Users/gianl/Desktop/ultimo test/unico.vhd}}
+current_fileset -simset [ get_filesets unico ]
+update_compile_order -fileset unico
+update_compile_order -fileset unico
+create_fileset -simset telegram_reset
+set_property SOURCE_SET sources_1 [get_filesets telegram_reset]
+add_files -fileset telegram_reset -norecurse -scan_for_includes {{C:/Users/gianl/Desktop/ultimo test/RL-generator-2020-2021-main/gen_testbench_reset.vhd}}
+import_files -fileset telegram_reset -norecurse {{C:/Users/gianl/Desktop/ultimo test/RL-generator-2020-2021-main/gen_testbench_reset.vhd}}
+update_compile_order -fileset telegram_reset
+update_compile_order -fileset telegram_reset
+report_timing
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+report_timing
+open_run synth_1 -name synth_1
+report_timing
+report_utilization
+launch_simulation -simset [get_filesets unico ] -mode post-synthesis -type functional

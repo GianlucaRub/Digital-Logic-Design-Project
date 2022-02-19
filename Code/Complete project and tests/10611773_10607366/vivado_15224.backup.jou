@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 22 22:40:48 2021
+# Process ID: 15224
+# Current directory: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10040 C:\Users\gianl\Desktop\ultimo test\Progetto di Reti Logiche\10611773_10607366\10611773_10607366.xpr
+# Log file: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/vivado.log
+# Journal file: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.xpr}
+update_compile_order -fileset sources_1
+update_files -from_files {{C:/Users/gianl/Desktop/ultimo test/RL-generator-2020-2021-main/gen_testbench_reset.vhd}} -to_files {{C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.srcs/telegram_reset/imports/RL-generator-2020-2021-main/gen_testbench_reset.vhd}} -filesets [get_filesets *]
+launch_simulation -simset [get_filesets telegram_reset ] -mode post-synthesis -type functional
+source project_tb.tcl
+restart
+run all
+close_sim
+reset_simulation -simset telegram_reset -mode post-synthesis -type functional

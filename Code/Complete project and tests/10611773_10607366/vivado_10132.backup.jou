@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 22 22:35:41 2021
+# Process ID: 10132
+# Current directory: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9628 C:\Users\gianl\Desktop\ultimo test\Progetto di Reti Logiche\10611773_10607366\10611773_10607366.xpr
+# Log file: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/vivado.log
+# Journal file: C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/gianl/Desktop/ultimo test/Progetto di Reti Logiche/10611773_10607366/10611773_10607366.xpr}
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets unico ] -mode post-synthesis -type functional
+source project_tb.tcl
+restart
+run all
+close_sim
+reset_simulation -simset unico -mode post-synthesis -type functional
+launch_simulation -simset [get_filesets telegram_reset ] -mode post-synthesis -type functional
+source project_tb.tcl
+restart
+run all
+run all
+close_sim
